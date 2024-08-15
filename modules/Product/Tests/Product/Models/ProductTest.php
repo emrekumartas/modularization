@@ -13,6 +13,7 @@ class ProductTest extends TestCase
     public function test_it_creates_an_product()
     {
         $product = Product::factory()->create();
+
         dd($product);
     }
 }
